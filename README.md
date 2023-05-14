@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Build based on next.js + rainbowkit + tailwind.css to provide wallet connection
 
 # Details for TokenA and TokenB
-They are just simple mockERC20 token contract extended from openzeppelin. It has 18 decimals and mint function for testing purpose. and they are deployed on both of chains (BSC testnet & mumbai testnet)
+They are just simple mockERC20 token contract extended from openzeppelin. It has 18 decimals and mint function for testing purpose. and they are deployed on both of chains (Binance smart chain testnet & polygon testnet & Avalanche testnet)
 
 # How swap works
 When calling swapRemote function in OracleSwap contract, first of all, the user have to approve the contract to spend the amount of token that user want to swap. Then, the contract will lock the token and send the message to destination chain by calling gateway.callContract function inside swapRemote itself.
